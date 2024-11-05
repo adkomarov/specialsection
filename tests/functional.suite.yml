@@ -1,0 +1,16 @@
+class_name: FunctionalTester
+#modules:
+#    enabled:
+#        - Filesystem
+#        - Yii2
+#        - Asserts
+#    config:
+#        Yii2:
+#            configFile: 'config/test.php'
+#            entryUrl: 'http://127.0.0.1:8080/'
+#            entryScript: 'index.php'
+modules:
+    enabled:
+      - Filesystem
+      - Yii2
+      - Asserts
